@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto Mono',monospace;
+    
+    background-image: url('https://www.publicdomainpictures.net/pictures/280000/velka/cosmos-background.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    background-color: #311432;
+  }
+  
+  h4{
+    color: white;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .page-title {
+    color: #ffffff;
+    margin: 0 0 5px;
+  }
+  
+  .page-subtitle {
+    color: #ffffff;
+    margin-top: 5px;
+  }
+  
+  .page-logo {
+    width: 200px;
+  }
+  
+  .alura-logo {
+    width: 40px;
+    position: absolute;
+    top: 10px;
+    right:10px;
+  }
+  
+  .input-text{
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    padding-left: 5px;
+    padding-right: 10px;
+  }
+  
+  #div-maior{
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  
+  #div-valores{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-style: solid;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
