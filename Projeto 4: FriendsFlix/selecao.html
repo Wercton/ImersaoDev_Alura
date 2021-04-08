@@ -1,26 +1,33 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/style.css">
     <title>
-        WerctonFlix - Imersão Dev
+        Imersão Dev - Aula 05
     </title>
 </head>
 
 <body>
     <div class="container">
         <h1 class="page-title">
-            WerctonFlix
+            Aluraflix
         </h1>
         <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo"
             alt="">
-        <div class="row">
-            <script type="text/javascript" src="./js/index.js"></script>
+        <p class="page-subtitle">
+            Qual seu filme favorito?
+        </p>
+        <div class="form-wrapper">
+            <input type="text" id="filme" name="filme" placeholder="Insira endereço de imagem">
+            <button onClick="adicionarFilme()">Adicionar Filme</button>
         </div>
     </div>
+    <div id="listaFilmes"></div>
     <a href="https://alura.com.br/" target="_blank">
         <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
     </a>
+    <script type="text/javascript" src="./js/selecao.js"></script>
 </body>
 
 </html>
